@@ -1,0 +1,16 @@
+{%  load static %}
+<center><img src="{%  static "pexels-designecologist-1779487.jpg" %}" width="1350" height="550" alt=""></center>
+<h1>{{ object.name }}</h1>
+<p><span style="color:brown">{{ object.description }}</span></p>
+<p><span style="color:grey">{{ object.note }}</span></p>
+<p><span style="color:maroon">{{ object.stock }}</span> stocks available</p>
+<p>Availability: {{ object.availability }}</p>
+<p>Supplier: <span style="color:green">{{ object.supplier }}</span></p>
+<style>
+    h1 {color:red;}
+    p {color:blue;}
+</style>
+<style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+</style>
